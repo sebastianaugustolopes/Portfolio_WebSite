@@ -8,3 +8,138 @@
     src: url(../fonts/TT\ Mussels\ Trial\ Regular.otf) format('opentype');
 }
 
+body{
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.font-compacta{
+    font-family: "Compacta", sans-serif;
+    
+}
+
+.font-mussels{
+    font-family: "Mussels", sans-serif;
+}
+
+#cabecalho {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; 
+}
+
+#home-page {
+    position: relative; 
+}
+
+.bi-code-slash{
+    font-size: 30px;
+    height: 30px;
+}
+
+
+.nav .nav-link.active{
+    background: none;
+    text-decoration: underline;
+}
+
+.nav .nav-link,
+.navbar-brand, 
+.navbar-brand:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+.navbar-brand h1{
+    margin: 0;
+    height: 30px;
+}
+
+.bi-list{
+    color: white;
+    font-size: 35px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none; 
+    box-shadow: none; 
+}
+
+.navbar-collapse{
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.986);
+    border-radius: 30px;
+    margin: 10px;
+}
+
+
+#home-page img{
+    height: 100%;
+    max-height: 800px;
+}
+
+
+#home-page > div{
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+
+
+#home-page h1,p, .btn{
+    margin-left: 60%;
+    margin-bottom: 0;
+}
+
+#home-page h1{
+    font-size: 4em;
+    line-height: 0.9;
+}
+
+#home-page p{
+    font-size: 0.9em;
+}
+
+.btn-dark {
+    box-shadow: 1px 0px 10px black;
+    background-color: rgba(85, 85, 85, 0.459);
+    border: none;
+    letter-spacing: 2px;
+    font-family: "roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-dark a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.btn-dark i {
+   font-size: 25px;
+}
+
+
+
