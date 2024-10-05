@@ -1,0 +1,92 @@
+@media screen and (max-width: 1120px) {
+    #home-page h1 {
+        font-size: 3em; 
+    }
+
+    #home-page p {
+        font-size: 0.6em;
+    }
+
+    .bi-code-slash {
+        font-size: 20px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #home-page h1,
+    #home-page p,
+    .btn {
+        margin-left: 10%;
+    }
+
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.562);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar h1 {
+        display: none; 
+    }
+
+    .bi-code-slash {
+        font-size: 30px;
+        height: 30px;
+        margin-left: 20px;
+    }
+
+    #home-page {
+        position: relative;
+        overflow: hidden;
+    }
+
+    #home-page img {
+        border-radius: 0 0 40px 40px; 
+    }
+
+    #home-page > div {
+        position: absolute;
+        top: 30%; 
+    }
+
+    #home-page h1 {
+        font-size: 2.5em;
+    }
+
+    .code-icon {
+        display: none; 
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #home-page h1 {
+        font-size: 2em; 
+    }
+
+    #home-page p {
+        font-size: 15px;
+        margin-bottom: 5px; 
+    }
+
+    .btn-dark {
+        padding: 5px 15px; 
+        font-size: 14px; 
+    }
+
+    .nav-item {
+        width: 100%;
+        padding: 8px 10px; 
+    }
+
+    .nav .nav-link.active {
+        margin: 10px; 
+        background: rgb(248, 248, 248);
+        text-decoration: none; 
+        color: black; 
+    }
+
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.918); 
+    }
+}
